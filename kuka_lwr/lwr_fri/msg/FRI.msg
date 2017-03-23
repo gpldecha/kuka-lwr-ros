@@ -1,0 +1,12 @@
+std_msgs/Header header
+string[] name
+float64[] position
+float64[] effort
+float64[] stiffness
+float64[] damping
+int64 FRI_STATE
+int64 FRI_QUALITY
+int64 FRI_CTRL
+int64 ROBOT_CTRL_MODE
+bool IsRobotArmPowerOn
+bool DoesAnyDriveSignalAnError

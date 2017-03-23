@@ -1,0 +1,25 @@
+<library path="lib/liblwr_controllers">
+    
+  <class name="lwr_controllers/JointControllers" type="lwr_controllers::JointControllers" base_class_type="controller_interface::ControllerBase">
+    <description>
+ 	Controller ROS interface for many controllers
+    </description>
+  </class>
+
+  <class name="lwr_controllers/KUKAJointStateController" type="lwr_controllers::KUKAJointStateController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The KUKAJointStateController is for publishing information such as ee_pos and joint pose on ros topics
+    </description>
+  </class>
+
+
+  <class name="lwr_controllers/JointPositionImpedanceController" type="lwr_controllers::JointPositionImpedanceController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointPositionImpedanceController tracks joint position commands. It expects a PositionJointInterface type of hardware interface.
+    </description>
+  </class>
+
+
+
+
+</library>
