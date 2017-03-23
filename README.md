@@ -33,17 +33,17 @@ $ sudo apt-get install ros-indigo-gazeboX-*
 Set of packages for simulating and controlling the KUKA Light Weight Robot (LWR).
 
 
-* [**kuka_lwr**](https://github.com/epfl-lasa/kuka-lwr-ros/tree/master/kuka_lwr) contains URDF robot description, hardware interface, controllers with configuration files.
+* [**kuka_lwr**](https://github.com/gpldecha/kuka-lwr-ros/tree/master/kuka_lwr) contains URDF robot description, hardware interface, controllers with configuration files.
 
-* [**lwr_ros_client**](https://github.com/epfl-lasa/kuka-lwr-ros/tree/master/lwr_ros_client) basic implemenation of action handling such that it is easy to call different types of policies.
+* [**lwr_ros_client**](https://github.com/gpldecha/kuka-lwr-ros/tree/master/lwr_ros_client) basic implemenation of action handling such that it is easy to call different types of policies.
 
-* [**robot_motion_generation**](https://github.com/epfl-lasa/kuka-lwr-ros/tree/master/robot_motion_generation)  utilities such as filters for smoothing robot motion.
+* [**robot_motion_generation**](https://github.com/gpldecha/kuka-lwr-ros/tree/master/robot_motion_generation)  utilities such as filters for smoothing robot motion.
 
-* [**kuka-lwr-ros-examples**](https://github.com/epfl-lasa/kuka-lwr-ros-examples) set of examples.
+* [**kuka-lwr-ros-examples**](https://github.com/gpldecha/kuka-lwr-ros-examples) set of examples.
 
 
 # Quick Start (Simulation)
-Download the [**kuka-lwr-ros-examples**](https://github.com/epfl-lasa/kuka-lwr-ros-examples) into your catkin_ws and 
+Download the [**kuka-lwr-ros-examples**](https://github.com/gpldecha/kuka-lwr-ros-examples) into your catkin_ws and 
 after compling them are ready to run the lwr_simple_example. 
 
 Open a new terminal and run the following:
